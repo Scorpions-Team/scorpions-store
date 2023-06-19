@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
     <>
       <Head>
         <title>Scorpions Team</title>
-        <meta name="description" content="Portfolio created by Next.JS" />
+        <meta name="description" content="Professional web developers" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.png" />
       </Head>
