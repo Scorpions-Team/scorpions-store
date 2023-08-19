@@ -4,10 +4,8 @@ import Link from "next/link";
 import {
   FaArrowCircleLeft,
   FaFacebookF,
-  FaTwitter,
   FaWhatsapp,
-  FaInstagram,
-  FaLinkedinIn,
+  FaTelegramPlane,
 } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { BsTelephoneFill } from "react-icons/bs";
@@ -85,19 +83,19 @@ const Contact = () => {
           </a>
         </div>
         <div className="p-4 m-4 mobile:m-3 mobile:p-3 bg-gray-300 dark:bg-[#333] transition duration-300 flex items-center hover:bg-gray-400 dark:hover:bg-[#222] rounded-lg mobile:min-w-[200px] min-w-[290px]">
-          <a
+          {/* <a
             href="https://wa.me/+201557096485"
             target="_blank"
             className="text-lg mobile:text-base flex items-center transition font-semibold duration-300 hover:text-lightColor dark:hover:text-darkColor"
           >
             <FaWhatsapp className="text-3xl mobile:text-xl mr-2 " />
-          </a>
+          </a> */}
           <a
-            href="tel:+201557096485"
+            href="tel:+201015192596"
             className="text-lg mobile:text-base flex items-center transition font-semibold duration-300 hover:text-lightColor dark:hover:text-darkColor"
           >
             <BsTelephoneFill className="text-3xl mobile:text-xl mr-2 " />
-            (+20) 155-7096-485
+            (+20) 101-5192-596
           </a>
         </div>
       </motion.div>
@@ -192,42 +190,29 @@ const Contact = () => {
           </motion.span>
         </Link>
       </motion.div>
-      {/* <motion.div
+      <motion.div
         variants={formVariants}
         className="sm:absolute flex mobile:mb-2 mobile:flex-row flex-col-reverse  tablet:bottom-4 tablet:left-4 bottom-8 left-8"
       >
         <div className="w-[40px] h-[40px] flex items-center justify-center text-2xl bg-gray-300 dark:bg-[#333] hover:bg-lightColor hover:text-white dark:hover:bg-darkColor dark:hover:text-black transition duration-300 m-2 rounded-full">
           <a
-            href="https://www.facebook.com/profile.php?id=100011448804193"
+            href="https://www.facebook.com/profile.php?id=100094607178489&mibextid=ZbWKwL"
             target="_blank"
           >
             <FaFacebookF />
           </a>
         </div>
         <div className="w-[40px] h-[40px] flex items-center justify-center text-2xl bg-gray-300 dark:bg-[#333] hover:bg-lightColor hover:text-white dark:hover:bg-darkColor dark:hover:text-black transition duration-300 m-2 rounded-full">
-          <a href="https://twitter.com/ya23122002" target="_blank">
-            <FaTwitter />
-          </a>
-        </div>
-        <div className="w-[40px] h-[40px] flex items-center justify-center text-2xl bg-gray-300 dark:bg-[#333] hover:bg-lightColor hover:text-white dark:hover:bg-darkColor dark:hover:text-black transition duration-300 m-2 rounded-full">
-          <a href="https://wa.me/+201069036485" target="_blank">
+          <a href="https://wa.me/+201015192596" target="_blank">
             <FaWhatsapp />
           </a>
         </div>
         <div className="w-[40px] h-[40px] flex items-center justify-center text-2xl bg-gray-300 dark:bg-[#333] hover:bg-lightColor hover:text-white dark:hover:bg-darkColor dark:hover:text-black transition duration-300 m-2 rounded-full">
-          <a href="https://www.instagram.com/youssef1125/" target="_blank">
-            <FaInstagram />
+          <a href="http://t.me/ScorpionsTeamdev" target="_blank">
+            <FaTelegramPlane />
           </a>
         </div>
-        <div className="w-[40px] h-[40px] flex items-center justify-center text-2xl bg-gray-300 dark:bg-[#333] hover:bg-lightColor hover:text-white dark:hover:bg-darkColor dark:hover:text-black transition duration-300 m-2 rounded-full">
-          <a
-            href="https://www.linkedin.com/in/youssef-ahmed-b7471224b/"
-            target="_blank"
-          >
-            <FaLinkedinIn />
-          </a>
-        </div>
-      </motion.div> */}
+      </motion.div>
       <motion.div
         variants={formVariants}
         className="sm:absolute mobile:m-2 tablet:bottom-4 tablet:right-4 bottom-8 right-8 font-bold"
